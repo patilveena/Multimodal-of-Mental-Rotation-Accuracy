@@ -4,7 +4,7 @@
 
 <div align="center">
 <h3><b>IITB EdTech Internship 2025</b> | DYPCET</h3>  
-<h4><b>Track 1 – Educational Data Analysis (EDA)</b></h4>  
+<h3>Track 1 – Educational Data Analysis (EDA)</h3>  
 </div>
 
 👩‍💻 **Group Name**: Data Divas  
