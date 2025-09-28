@@ -1,14 +1,13 @@
 # Multimodal Prediction of Mental Rotation Accuracy  
 
-<hr style="border: 1px solid #aaa; width: 50%;">
-
 <div align="center">
-<h3><b>IITB EdTech Internship 2025</b> | DYPCET</h3>  
-<h3>Track 1 – Educational Data Analysis (EDA)</h3>  
+<h5><b>IITB EdTech Internship 2025</b> | DYPCET <br>Track 1 – Educational Data Analysis (EDA)</h5>  
 </div>
 
-👩‍💻 **Group Name**: Data Divas  
-🆔 **Group ID**: T1_G23  
+---
+
+**Group Name**: Data Divas  
+**Group ID**: T1_G23  
 
 ---
 
@@ -89,9 +88,11 @@ The dataset is multimodal, synchronized on question timestamps.
 ### Step 5: Model Selection
 - Best model chosen via F1-score  
 - Saved models for deployment:  
-  - `xgb_model.pkl`  
-  - `scaler.pkl`  
-  - `fusion_model.pt`  
+  ```
+  xg_model.pkl
+  scaler.pkl
+  fusion_model.pt
+  ```
 
 ---
 
@@ -124,7 +125,8 @@ All evaluations done with cross-validation + held-out test splits.
 ---
 
 ## 📂 Repository Structure
-'''
+
+```
 project/
 ├── data/
 │ ├── PSY_feature_engineered.csv
@@ -144,4 +146,4 @@ project/
 │ ├── xgb_model.pkl
 │ └── fusion_model.pt
 └── README.md
-'''
+```
