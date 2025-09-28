@@ -1,7 +1,11 @@
-# 🧠 Multimodal Prediction of Mental Rotation Accuracy  
+# Multimodal Prediction of Mental Rotation Accuracy  
 
-**IITB EdTech Internship 2025** | DYPCET  
-**Track 1 – Educational Data Analysis (EDA)**  
+<hr style="border: 1px solid #aaa; width: 50%;">
+
+<div align="center">
+<h3><b>IITB EdTech Internship 2025</b> | DYPCET</h3>  
+<h4><b>Track 1 – Educational Data Analysis (EDA)</b></h4>  
+</div>
 
 👩‍💻 **Group Name**: Data Divas  
 🆔 **Group ID**: T1_G23  
@@ -9,7 +13,7 @@
 ---
 
 ## 🚀 Project Overview
-Human cognition is complex, but measurable. This project explores how physiological and behavioral signals can be used to **predict performance in mental rotation tasks** — a classic test of spatial reasoning.  
+Human cognition is complex, but measurable. This project explores how physiological and behavioral signals can be used to **predict performance in mental rotation tasks** a classic test of spatial reasoning.  
 
 By combining signals from **EEG (brain activity)**, **eye-tracking**, **GSR (skin response)**, and **facial expressions**, we aim to build machine learning models that can forecast whether a participant will answer correctly **before or during the task itself**.  
 
@@ -120,22 +124,24 @@ All evaluations done with cross-validation + held-out test splits.
 ---
 
 ## 📂 Repository Structure
+'''
 project/
 ├── data/
-│ ├── PSY_feature_engineered.csv # Target labels
-│ ├── EEG_feature_engineered.csv # EEG band features
-│ ├── GSR_feature_engineered.csv # Skin response features
-│ ├── EYE_feature_engineered.csv # Eye-tracking metrics
-│ ├── IVT_feature_engineered.csv # Additional gaze data
-│ └── TIVA_feature_engineered.csv # Facial expression features
+│ ├── PSY_feature_engineered.csv
+│ ├── EEG_feature_engineered.csv
+│ ├── GSR_feature_engineered.csv
+│ ├── EYE_feature_engineered.csv
+│ ├── IVT_feature_engineered.csv
+│ └── TIVA_feature_engineered.csv
 ├── notebooks/
-│ ├── 01_preprocessing.ipynb # Data cleaning
-│ ├── 02_feature_engineering.ipynb # Feature extraction
-│ ├── 03_modeling_baseline.ipynb # RF, XGB, LR models
-│ ├── 04_modeling_fusion.ipynb # Fusion approaches
-│ └── 05_analysis.ipynb # Evaluation & insights
+│ ├── 01_preprocessing.ipynb
+│ ├── 02_feature_engineering.ipynb
+│ ├── 03_modeling_baseline.ipynb
+│ ├── 04_modeling_fusion.ipynb
+│ └── 05_analysis.ipynb
 ├── models/
-│ ├── scaler.pkl # Preprocessing scaler
-│ ├── xgb_model.pkl # Best baseline model
-│ └── fusion_model.pt # Multimodal fusion model
+│ ├── scaler.pkl
+│ ├── xgb_model.pkl
+│ └── fusion_model.pt
 └── README.md
+'''
