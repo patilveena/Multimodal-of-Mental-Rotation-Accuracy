@@ -147,3 +147,6 @@ project/
 │ └── fusion_model.pt
 └── README.md
 ```
+<p align="center">
+<strong>Data_Divas</strong> | IITB EdTech 2025
+</p>
